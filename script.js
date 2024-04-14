@@ -35,7 +35,7 @@ function getRandomInt(min, max) {
 button.addEventListener("click", function () {
   const number = getRandomInt(0,5);
 
-  title.textContent = `Твое прекрасное предсказание — ${getRandomInt(0, 5)}`;
+  
   switch (number) {
     case 0:
         title.textContent = `Скоро сбудется твое самое заветное желание`;
